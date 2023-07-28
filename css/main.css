@@ -71,42 +71,27 @@ nav .profile-link a {
 }
 
 
-.banner {
-    height: 78vh;
-    width: 100%;
-    background-image: url('../assets/img/Cover.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
 }
 
-.banner--title {
-    color: white;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 3.9rem;
-    font-weight: bold;
-    line-height: 3.5rem;
-    padding-top: 130px;
+.home-main section {
+    grid-column: 2;
+    display: grid;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text {
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: black;
     text-align: center;
 }
-
-.banner--button {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 8px 12px;
-    color: black;
-    background-color: #47cfac;   
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-
-
 
 
 
